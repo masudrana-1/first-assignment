@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+#header {
+    width: 100%;
+    text-align: center;
+    background-image: url(images/kelly-sikkema-_whs7FPfkwQ-unsplash.jpg);
+    height: 530px;
+    width: 100% background-repeat: no-repeat;
+
+}
+
+.header-text {
+    padding-top: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.header-text h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 60px;
+    font-weight: 10px;
+}
+
+.header-text p {
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    font-weight: 8px;
+}
+
+.header-text a {
+    text-decoration: none;
+    color: aliceblue;
+    background-color: chocolate;
+    padding: 15px;
+    border-radius: 5px;
+}
