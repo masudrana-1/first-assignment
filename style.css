@@ -5,9 +5,11 @@ body {
 #header {
     width: 100%;
     text-align: center;
-    background-image: url(images/kelly-sikkema-_whs7FPfkwQ-unsplash.jpg);
-    height: 530px;
-    width: 100% background-repeat: no-repeat;
+    background-image: url(images/pavlo-rekun-HKHxlFqDVLM-unsplash.jpg);
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 1608px 500px;
 
 }
 
@@ -26,6 +28,16 @@ body {
     font-family: 'Crimson Text', serif;
     font-size: 20px;
     font-weight: 8px;
+    margin-bottom: 45px;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+#text-h1 {
+    font-size: 40px;
 }
 
 .header-text a {
@@ -48,18 +60,25 @@ body {
 
 .amount h1 {
     padding: 30px;
-    background-color: rgb(198, 197, 197);
+    background-color: rgba(198, 197, 197, 0.27);
     margin: 5px;
 }
 
 #select {
-    border: 2px solid rgb(203, 55, 50);
-    background-color: rgb(194, 114, 114);
+    border: 2px solid rgb(217, 104, 104);
+    background-color: rgba(212, 39, 39, 0.316);
+}
+
+#input {
+    margin-top: 33px;
+}
+
+.input {
+    border: none;
 }
 
 .button {
     background-color: #e16d0d;
-    /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -67,7 +86,8 @@ body {
     border-radius: 5px;
 }
 
-#middle-bottom {
+
+#middle {
     display: flex;
     width: 100%;
     margin: 0px 18%;
@@ -98,12 +118,57 @@ body {
     border-radius: 5px;
 }
 
+#middle-bottom {
+    display: flex;
+    width: 100%;
+    margin: 0px 8%;
+    padding: 30px;
+}
+
+#middle-bottom img {
+    width: 25%;
+    height: 400px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.top-img {
+    padding-top: 110px;
+}
+
+#footer-top {
+    text-align: center;
+}
+
+.footer-input {
+    background-color: #a71d1d0b;
+    padding: 40px 0px;
+    width: 0px 10%;
+    margin: 5px 440px;
+}
+
+.footer-input input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(213, 217, 221);
+}
+
+.footer-input button {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(246, 0, 0, 0.81);
+
+}
+
 footer {
     text-align: center;
-    background-color: rgba(182, 213, 26, 0.444);
+    background-color: rgba(13, 13, 13, 0.66);
     padding: 10px;
 }
 
 footer h1 {
     font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
 }
