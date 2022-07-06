@@ -55,7 +55,6 @@ p {
 
 .amount {
     display: flex;
-    width: 100%;
 }
 
 .amount h1 {
