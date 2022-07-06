@@ -35,3 +35,34 @@ body {
     padding: 15px;
     border-radius: 5px;
 }
+
+.middle {
+    text-align: center;
+    margin: 15px 400px;
+}
+
+.amount {
+    display: flex;
+    width: 100%;
+}
+
+.amount h1 {
+    padding: 30px;
+    background-color: rgb(198, 197, 197);
+    margin: 5px;
+}
+
+#select {
+    border: 2px solid rgb(203, 55, 50);
+    background-color: rgb(194, 114, 114);
+}
+
+.button {
+    background-color: #e16d0d;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    border-radius: 5px;
+}
