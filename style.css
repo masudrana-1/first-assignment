@@ -76,7 +76,7 @@ body {
 
 .box-1 {
     width: 20%;
-    padding: 10px;
+    padding: 40px 15px;
     margin: 5px;
     background-color: rgba(94, 193, 212, 0.132);
     border-radius: 5px;
@@ -84,7 +84,7 @@ body {
 
 .box-2 {
     width: 20%;
-    padding: 10px;
+    padding: 40px 15px;
     margin: 5px;
     background-color: rgba(214, 74, 74, 0.223);
     border-radius: 5px;
@@ -92,8 +92,18 @@ body {
 
 .box-3 {
     width: 20%;
-    padding: 10px;
+    padding: 40px 15px;
     margin: 5px;
     background-color: rgba(129, 21, 217, 0.179);
     border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(182, 213, 26, 0.444);
+    padding: 10px;
+}
+
+footer h1 {
+    font-family: 'Kaushan Script', cursive;
 }
