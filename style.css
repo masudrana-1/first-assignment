@@ -36,7 +36,7 @@ body {
     border-radius: 5px;
 }
 
-.middle {
+#middle-top {
     text-align: center;
     margin: 15px 400px;
 }
@@ -64,5 +64,36 @@ body {
     color: white;
     padding: 15px 32px;
     font-size: 16px;
+    border-radius: 5px;
+}
+
+#middle-bottom {
+    display: flex;
+    width: 100%;
+    margin: 0px 18%;
+
+}
+
+.box-1 {
+    width: 20%;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(94, 193, 212, 0.132);
+    border-radius: 5px;
+}
+
+.box-2 {
+    width: 20%;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(214, 74, 74, 0.223);
+    border-radius: 5px;
+}
+
+.box-3 {
+    width: 20%;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(129, 21, 217, 0.179);
     border-radius: 5px;
 }
